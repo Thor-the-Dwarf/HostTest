@@ -252,6 +252,7 @@ _flutter.loader = null;
     async loadEntrypoint(options) {
       const { entrypointUrl = `${baseUri}main.dart.js`, onEntrypointLoaded } =
         options || {};
+      
 
       return this._loadEntrypoint(entrypointUrl, onEntrypointLoaded);
     }
